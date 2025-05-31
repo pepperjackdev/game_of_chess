@@ -1,0 +1,34 @@
+package me.pepperjackdev.game_of_chess.core.state.placement;
+
+import me.pepperjackdev.game_of_chess.core.piece.Piece;
+import me.pepperjackdev.game_of_chess.core.position.Position;
+
+import java.util.Optional;
+
+public class MutablePlacement
+    implements Placement {
+
+    private final Size size;
+    private final Piece[][] pieces;
+
+    public MutablePlacement(Size size) {
+        this.size = size;
+        this.pieces = new Piece[size.rows()][size.columns()];
+    }
+
+    @Override
+    public Size getSize() {
+        return size;
+    }
+
+    @Override
+    public Optional<Piece> getPiece(Position position) {
+        return Optional.ofNullable(pieces[position.row()][position.column()]);
+    }
+
+    public Optional<Piece> setPiece(Position position, Piece piece) {
+        Optional<Piece> old = getPiece(position);
+        pieces[position.row()][position.column()] = piece;
+        return old;
+    }
+}
