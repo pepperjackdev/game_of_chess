@@ -1,9 +1,9 @@
-package me.pepperjackdev.game_of_chess.core.state;
+package me.pepperjackdev.game_of_chess.core.board.data.state;
 
 import me.pepperjackdev.game_of_chess.core.Side;
 import me.pepperjackdev.game_of_chess.core.position.Position;
-import me.pepperjackdev.game_of_chess.core.state.castling.CastlingRights;
-import me.pepperjackdev.game_of_chess.core.state.placement.Placement;
+import me.pepperjackdev.game_of_chess.core.board.data.state.castling.CastlingRights;
+import me.pepperjackdev.game_of_chess.core.board.data.state.placement.Placement;
 
 public interface State {
     Placement getPiecePlacementData();

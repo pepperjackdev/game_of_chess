@@ -1,4 +1,4 @@
-package me.pepperjackdev.game_of_chess.core.state.castling;
+package me.pepperjackdev.game_of_chess.core.board.data.state.castling;
 
 public class MutableCastingRights
         implements CastlingRights {
