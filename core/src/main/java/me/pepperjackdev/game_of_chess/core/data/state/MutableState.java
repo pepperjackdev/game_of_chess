@@ -1,9 +1,9 @@
-package me.pepperjackdev.game_of_chess.core.board.data.state;
+package me.pepperjackdev.game_of_chess.core.data.state;
 
 import me.pepperjackdev.game_of_chess.core.Side;
 import me.pepperjackdev.game_of_chess.core.position.Position;
-import me.pepperjackdev.game_of_chess.core.board.data.state.castling.MutableCastingRights;
-import me.pepperjackdev.game_of_chess.core.board.data.state.placement.MutablePlacement;
+import me.pepperjackdev.game_of_chess.core.data.state.castling.MutableCastingRights;
+import me.pepperjackdev.game_of_chess.core.data.state.placement.MutablePlacement;
 
 public class MutableState
     implements State {

@@ -1,4 +1,4 @@
-package me.pepperjackdev.game_of_chess.core.board;
+package me.pepperjackdev.game_of_chess.core.data;
 
 public enum Result {
     WHITE,

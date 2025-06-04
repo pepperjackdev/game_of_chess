@@ -1,7 +1,6 @@
-package me.pepperjackdev.game_of_chess.core.board.data;
+package me.pepperjackdev.game_of_chess.core.data;
 
-import me.pepperjackdev.game_of_chess.core.board.Result;
-import me.pepperjackdev.game_of_chess.core.board.data.state.MutableState;
+import me.pepperjackdev.game_of_chess.core.data.state.MutableState;
 
 import java.util.Optional;
 
