@@ -1,3 +1,4 @@
 rootProject.name = 'game_of_chess'
-include 'core'
+include 'game'
+include 'player'
 include 'service'
